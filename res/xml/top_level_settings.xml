@@ -32,7 +32,7 @@
 
     <!-- KGV FusionX: KGV X Intelligence, between Network & internet and Connected devices. -->
     <com.android.settings.widget.HomepagePreference
-        android:icon="@drawable/ic_homepage_kgv_intelligence"
+        android:icon="@drawable/ic_kgv_spark"
         android:key="top_level_kgv_intelligence"
         android:order="-147"
         android:title="@string/kgv_intelligence_title"
