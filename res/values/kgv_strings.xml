@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KGV FusionX: the KGV X Intelligence entry on the Settings homepage. -->
+<resources>
+    <string name="kgv_intelligence_title" translatable="false">KGV X Intelligence</string>
+    <string name="kgv_intelligence_summary" translatable="false">AI research assistant, phone control, MCP</string>
+</resources>

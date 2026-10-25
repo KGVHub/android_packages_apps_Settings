@@ -30,6 +30,19 @@
         settings:highlightableMenuKey="@string/menu_key_network"
         settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
 
+    <!-- KGV FusionX: KGV X Intelligence, between Network & internet and Connected devices. -->
+    <com.android.settings.widget.HomepagePreference
+        android:icon="@drawable/ic_homepage_kgv_intelligence"
+        android:key="top_level_kgv_intelligence"
+        android:order="-147"
+        android:title="@string/kgv_intelligence_title"
+        android:summary="@string/kgv_intelligence_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="org.kgv.intelligence"
+            android:targetClass="org.kgv.intelligence.SettingsActivity" />
+    </com.android.settings.widget.HomepagePreference>
+
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.communal.CommunalDashboardFragment"
         android:icon="@drawable/ia_settings_communal"
